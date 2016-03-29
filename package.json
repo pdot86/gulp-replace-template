@@ -1,6 +1,6 @@
 {
   "name": "gulp-replace-template",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create your own templating syntax and replace with an object via gulp.",
   "main": "index.js",
   "scripts": {
