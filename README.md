@@ -80,7 +80,7 @@ gulp.task("replace", ["myDepTask"], function (cb) {
             generatedVarVal: Boolean(Math.floor(Math.random() * (1 - 0 + 1)) + 0),
             defaultValForX: "foo",
             newValForX: "bar"
-          }) )
+          }, { prefix: "{{", suffix: "}}" }) )
           .pipe( gulp.dest("./dist") )
 });
 ```
